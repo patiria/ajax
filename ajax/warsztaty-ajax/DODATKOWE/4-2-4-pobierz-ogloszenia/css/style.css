@@ -1,0 +1,22 @@
+.offer {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    padding: 35px;
+    border-bottom: 1px solid #000;
+    align-items: flex-start;
+}
+
+.offer__image {
+    flex: 1 1 25%;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.offer__image img {
+    max-width: 100%;
+}
+
+.offer__description {
+    flex: 1 1 75%;
+}
